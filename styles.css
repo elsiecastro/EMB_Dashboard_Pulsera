@@ -1,0 +1,140 @@
+/* Importar una fuente tipo HUD (si no se usa un Google Font link en head) */
+/* Si "Orbitron" no está disponible globalmente, se puede usar 'Share Tech Mono' o simplemente 'monospace' */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+/* ======= GLOBAL NASA HUD THEME (Estilo A: Azul-Cian) ======= */
+
+body {
+    background-color: #000814 !important; /* Negro Profundo */
+    color: #e0f7ff !important; /* Texto claro */
+    font-family: 'Share Tech Mono', monospace; /* Fuente Sci-Fi */
+}
+
+/* Esconder elementos de Streamlit */
+header, footer {
+    visibility: hidden;
+    height: 0;
+}
+
+/* Contenedor Principal (Aumentar padding para que no se vea tan apretado) */
+.block-container {
+    padding: 3rem 4rem 2rem;
+}
+
+/* Title & Subheaders */
+h1, h2, h3 {
+    color: #5cd7ff !important;
+    /* Efecto de neón más intenso y limpio */
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff99; 
+    font-family: 'Share Tech Mono', monospace; 
+    border-bottom: 1px solid #00eaff33; /* Línea separadora sutil */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* HUD Card Style (Métricas) */
+[data-testid="stMetric"] {
+    background: rgba(0, 15, 40, 0.4); /* Fondo semi-transparente oscuro */
+    padding: 20px;
+    border-radius: 8px; /* Ligeramente más angular */
+    border: 2px solid #0ff; /* Borde cian fuerte */
+    box-shadow: 0 0 20px #00eaff55, inset 0 0 10px #00eaff22; /* Sombra y brillo interior */
+    color: #eaffff !important;
+}
+
+/* Metric label */
+[data-testid="stMetricLabel"] p {
+    color: #88e8ff !important; /* Cian más suave para la etiqueta */
+    font-size: 13px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+}
+
+/* Metric value (Valor) */
+[data-testid="stMetricValue"] {
+    color: #eaffff !important;
+    font-size: 32px !important; /* Valor más grande */
+    text-shadow: 0 0 18px #00eaff;
+}
+
+/* Sidebar (Configuración de Consola) */
+section[data-testid="stSidebar"] {
+    background-color: #001122;
+    border-right: 2px solid #00eaff55;
+    box-shadow: 2px 0 15px #00bfff33;
+    padding-top: 2rem;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #b8f6ff !important;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* Botones (Controles de consola) */
+.stButton>button {
+    background: #002a41;
+    border: 1px solid #00deff;
+    color: #b8f6ff;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #00eaff77;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.stButton>button:hover {
+    background: #004d80;
+    border-color: #5cd7ff;
+    box-shadow: 0 0 15px #00eaffcc;
+}
+
+/* Línea divisora */
+hr {
+    border-top: 1px solid #00eaff33;
+}
+
+/* Estilo para st.map (Radar/Ubicación) */
+.stDeckGlJsonChart {
+    border: 2px solid #00eaff55 !important;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00bfff66;
+    background-color: #000814;
+}
+
+/* Mensajes de Alerta (Haciéndolos parte de la consola) */
+
+/* Mensaje de éxito (normal) */
+[data-testid="stSuccess"] {
+    background-color: rgba(0, 100, 0, 0.2); /* Fondo sutil */
+    color: #00ff00 !important;
+    border-left: 5px solid #00ff00;
+    border-radius: 0;
+    box-shadow: 0 0 5px #00ff0055;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* Advertencia (warning) */
+[data-testid="stWarning"] {
+    background-color: rgba(100, 100, 0, 0.2);
+    color: #ffaa00 !important;
+    border-left: 5px solid #ffaa00;
+    border-radius: 0;
+    box-shadow: 0 0 5px #ffaa0055;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* Peligro (error) */
+[data-testid="stError"] {
+    background-color: rgba(100, 0, 0, 0.2);
+    color: #ff3333 !important;
+    border-left: 5px solid #ff3333;
+    border-radius: 0;
+    box-shadow: 0 0 5px #ff333355;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* Gráficos de línea */
+.stDataFrame, .stLineChart, .stBarChart {
+    box-shadow: 0 0 10px #00eaff33;
+    border-radius: 5px;
+    padding: 5px;
+}
