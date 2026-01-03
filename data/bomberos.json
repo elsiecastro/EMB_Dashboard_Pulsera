@@ -1,0 +1,156 @@
+{
+  "bomberos": [
+    {
+      "id": "B001",
+      "nombre": "Carlos Mena",
+      "rango": "Teniente",
+      "mision_id": "M1",
+      "tipo_incendio": "forestal",
+      "equipo": "Brigada de línea",
+      "estado": "Activo",
+      "ubicacion": {
+        "lat": -2.170998,
+        "lon": -79.922359
+      },
+      "biometria": {
+        "pulso": 92,
+        "spo2": 97,
+        "temperatura": 37.2
+      },
+      "alertas": []
+    },
+    {
+      "id": "B002",
+      "nombre": "Andrea Torres",
+      "rango": "Bombera",
+      "mision_id": "M1",
+      "tipo_incendio": "forestal",
+      "equipo": "Brigada de línea",
+      "estado": "Activo",
+      "ubicacion": {
+        "lat": -2.171450,
+        "lon": -79.923100
+      },
+      "biometria": {
+        "pulso": 98,
+        "spo2": 96,
+        "temperatura": 37.5
+      },
+      "alertas": ["Pulso elevado"]
+    },
+    {
+      "id": "B003",
+      "nombre": "Luis Paredes",
+      "rango": "Bombero",
+      "mision_id": "M1",
+      "tipo_incendio": "forestal",
+      "equipo": "Manguera en primera línea",
+      "estado": "Activo",
+      "ubicacion": {
+        "lat": -2.172100,
+        "lon": -79.921900
+      },
+      "biometria": {
+        "pulso": 88,
+        "spo2": 98,
+        "temperatura": 36.9
+      },
+      "alertas": []
+    },
+    {
+      "id": "B004",
+      "nombre": "María López",
+      "rango": "Cabo",
+      "mision_id": "M2",
+      "tipo_incendio": "estructural",
+      "equipo": "Ataque interior",
+      "estado": "Activo",
+      "ubicacion": {
+        "lat": -2.145230,
+        "lon": -79.910540
+      },
+      "biometria": {
+        "pulso": 105,
+        "spo2": 95,
+        "temperatura": 38.1
+      },
+      "alertas": ["Temperatura alta"]
+    },
+    {
+      "id": "B005",
+      "nombre": "Jorge Salinas",
+      "rango": "Bombero",
+      "mision_id": "M2",
+      "tipo_incendio": "estructural",
+      "equipo": "Búsqueda y rescate",
+      "estado": "Activo",
+      "ubicacion": {
+        "lat": -2.145900,
+        "lon": -79.911200
+      },
+      "biometria": {
+        "pulso": 90,
+        "spo2": 97,
+        "temperatura": 37.0
+      },
+      "alertas": []
+    },
+    {
+      "id": "B006",
+      "nombre": "Fernando Ruiz",
+      "rango": "Sargento",
+      "mision_id": "M2",
+      "tipo_incendio": "estructural",
+      "equipo": "RIT",
+      "estado": "En espera",
+      "ubicacion": {
+        "lat": -2.146500,
+        "lon": -79.912000
+      },
+      "biometria": {
+        "pulso": 82,
+        "spo2": 99,
+        "temperatura": 36.8
+      },
+      "alertas": []
+    },
+    {
+      "id": "B007",
+      "nombre": "Paola Vera",
+      "rango": "Bombera",
+      "mision_id": "M3",
+      "tipo_incendio": "forestal",
+      "equipo": "Brigada de línea",
+      "estado": "Activo",
+      "ubicacion": {
+        "lat": -2.185200,
+        "lon": -79.935800
+      },
+      "biometria": {
+        "pulso": 94,
+        "spo2": 96,
+        "temperatura": 37.3
+      },
+      "alertas": []
+    },
+    {
+      "id": "B008",
+      "nombre": "Ricardo Molina",
+      "rango": "Bombero",
+      "mision_id": "M3",
+      "tipo_incendio": "forestal",
+      "equipo": "Manguera en primera línea",
+      "estado": "Activo",
+      "ubicacion": {
+        "lat": -2.184600,
+        "lon": -79.934900
+      },
+      "biometria": {
+        "pulso": 100,
+        "spo2": 95,
+        "temperatura": 37.8
+      },
+      "alertas": ["Pulso elevado"]
+    }
+  ]
+}

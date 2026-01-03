@@ -1,0 +1,42 @@
+{
+  "M1": {
+    "nombre": "Incendio Forestal – Cerro Azul",
+    "tipo": "Forestal",
+    "equipos": {
+      "Brigadas de línea": {
+        "Brigada Línea 1": ["B001", "B002"],
+        "Brigada Línea 2": ["B003"]
+      },
+      "Manguera en primera línea": {
+        "Manguera 1": ["B004"]
+      }
+    }
+  },
+  "M2": {
+    "nombre": "Incendio Estructural – Bodega Industrial",
+    "tipo": "Estructural",
+    "equipos": {
+      "Ataque interior": {
+        "Ataque A": ["B005", "B006"]
+      },
+      "Búsqueda y rescate": {
+        "Rescate 1": ["B007"]
+      },
+      "RIT": {
+        "RIT 1": ["B008"]
+      }
+    }
+  },
+  "M3": {
+    "nombre": "Incendio Forestal – Refuerzo Perimetral",
+    "tipo": "Forestal",
+    "equipos": {
+      "Brigadas de línea": {
+        "Brigada Línea 3": ["B009"]
+      },
+      "Manguera en primera línea": {
+        "Manguera 2": ["B010"]
+      }
+    }
+  }
+}
